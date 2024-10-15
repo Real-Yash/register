@@ -1,2 +1,20 @@
-securing some of domain for later thing ofc LOL,
-im friend of cutedog BTW UwU
+{
+    "description": "securing some of domain for later thing ofc LOL,
+im friend of cutedog BTW UwU",
+    "owner": {
+        "email": "connect@realyash.is-a.dev",
+        "username": "Real-yash"
+    },
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "example.com",
+        "MX": ["mx1.example.com", "mx2.example.com"],
+        "TXT": ["example_verification=1234567890"],
+        "SRV": [
+            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.example.com" },
+            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.example.com" }
+        ]
+    },
+    "proxied": false
+}
